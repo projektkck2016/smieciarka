@@ -1,0 +1,61 @@
+print("Witaj w systemie obs³ugi inteligentnej œmieciarki");
+string rodzaj;
+float zape³nienie;
+float pojemnosc;
+int smieciarka_pozycja;
+float smieciarka_plastik;
+float smieciarka_szklo;
+float smieciarka_papier;
+float smieciarka_inne;
+float baza_plastik;
+float baza_szklo;
+flaot baza_papier;
+float baza_inne;
+
+
+int posesja[x,y]
+float posesja[x,y]_œmieci;
+
+
+
+
+print("Œmieciarka czeka na Twoje polecenie, z jakich ulic ma zabraæ œmieci :");
+pobierzkomende()
+{
+string polecenie;
+read(polecenie);
+if (zbadajpolecenie(polecenie)) == 1;
+wykonajpolecenie(polecenie)
+else
+print("Podano niepoprawne polecenie, proszê sformu³owac je bardziej precyzyjnie :";
+pobierzkomende();
+}
+void oddaj do bazy()
+{
+baza_plastik = baza_plastik + smieciarka_plastik;
+smieciarka_plastik= 0;
+baza_szklo = baza_szklo + smieciarka_szklo;
+smieciarka_szklo = 0 ;
+baza_papier = baza_papier + smieciarka_papier;
+smieciarka_papier = 0;
+baza_inne = baza_inne + smieciarka_inne;
+smieciarka_inne = 0;
+}
+zbierzsmieci(Posesja[x,y])
+{
+smieciarka_plastik = smieciarka_plastik + Posesja[x,y]_plastik/2;
+Posesja[x,y]_plastik= 0;
+smieciarka_szklo = smieciarka_szklo + Posesja[x,y]_szklo/2;
+Posesja[x,y]_szklo = 0;
+smieciarka_papier = smieciarka_papier + Posesja[x,y]_papier/2;
+Posesja[x,y]_papier = 0;
+smieciarka_inne = smieciarka_inne + Posesja[x,y]_inne/2;
+}
+
+
+smieciarka_jedz();
+
+
+
+
+generujsmieci(Posesja[x,y]);
