@@ -22,5 +22,12 @@ while True:
     for wyraz in rzeczownik
         if zdanie == wyraz:
             print("Podałeś rzeczownik!");
-            
+            for wyraz in czasownik
+                if zdanie == wyraz:
+                print("Podałeś czasownik!");
+                    for wyraz in ulica
+                        if zdanie == wyraz:
+                        print("Podałeś ulice");
+break;        
 print("Koniec!")
+
