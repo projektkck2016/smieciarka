@@ -1,0 +1,10 @@
+sprzatac  CLEAN
+posprzatac  CLEAN
+czyscic CLEAN
+wyczyscic CLEAN
+zebrac  CLEAN
+pozbierac CLEAN
+okolica AREA
+ulica STREET
+wszystko ALL
+Szybka STREETNAME
